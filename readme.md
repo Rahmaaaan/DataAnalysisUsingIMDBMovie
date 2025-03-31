@@ -70,7 +70,7 @@ We welcome contributions in these areas:
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/yourfork/imdb-analysis.git
+   git clone https://github.com/Rahmaaaan/DataAnalysisUsingIMDBMovie.git
    ```
 
 2. **Create feature branch**
@@ -101,17 +101,10 @@ We welcome contributions in these areas:
 - Keep visualizations accessible (colorblind-friendly palettes)
 - Validate results with statistical tests
 
-## Data Analysis Process 
-[Previous analysis sections remain unchanged...]
-```
+## License
 
-Key additions:
-1. **Detailed Installation** with virtual environment setup and dataset placement
-2. **Structured Contribution Guide** with:
-   - Specific contribution areas
-   - Conventional commit message examples
-   - Coding standards for data analysis
-   - Accessibility considerations for visualizations
-3. **Clear workflow** from environment setup to PR creation
+This website is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-The contribution section now provides concrete guidance for different types of contributions while maintaining alignment with data science best practices.
+## Contact
+
+If you have any questions or feedback, feel free to reach out to us at <therahman14@gmail.com>. We're excited to hear from you and make this project even better!
