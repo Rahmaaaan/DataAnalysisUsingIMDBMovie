@@ -1,7 +1,7 @@
 # IMDB Movie Data Analysis
 
-[![Open in Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)]([DataAnalysisUsingIMDB.ipynb](https://github.com/Rahmaaaan/DataAnalysisUsingIMDBMovie/blob/main/Data%20analysis%20using%20IMDB%20Movie.ipynb))
-[![HTML Version](https://img.shields.io/badge/HTML-Report-blue.svg)]([DataAnalysisUsingIMDB.html](https://github.com/Rahmaaaan/DataAnalysisUsingIMDBMovie/blob/main/DataAnalysisUsingIMDB.html))
+[![Open in Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](DataAnalysisUsingIMDB.ipynb)
+[![HTML Version](https://img.shields.io/badge/HTML-Report-blue.svg)](DataAnalysisUsingIMDB.html)
 
 A comprehensive data analysis project exploring relationships between movie budgets, popularity, runtime, genres, and profitability using the TMDB dataset. This study utilizes Python's data analysis stack to derive insights into film industry trends.
 
