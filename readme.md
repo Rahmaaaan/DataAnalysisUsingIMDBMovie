@@ -1,6 +1,22 @@
 # IMDB Movie Data Analysis
 
-A comprehensive data analysis project exploring relationships between movie budgets, popularity, runtime, genres, and profitability using the IMDB dataset. This study utilizes Python's data analysis stack to derive insights into film industry trends.
+[![Open in Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](DataAnalysisUsingIMDB.ipynb)
+[![HTML Version](https://img.shields.io/badge/HTML-Report-blue.svg)](DataAnalysisUsingIMDB.html)
+
+A comprehensive data analysis project exploring relationships between movie budgets, popularity, runtime, genres, and profitability using the TMDB dataset. This study utilizes Python's data analysis stack to derive insights into film industry trends.
+
+## Files Structure
+
+```
+.
+├── .gitattributes
+├── .gitignore
+├── DataAnalysisUsingIMDB.ipynb    # Main Jupyter Notebook
+├── DataAnalysisUsingIMDB.html     # Exported HTML Report
+├── LICENSE
+├── readme.md
+└── tmdb-movies.csv                # Primary dataset
+```
 
 ## Technologies Used
 
@@ -26,34 +42,23 @@ A comprehensive data analysis project exploring relationships between movie budg
 - pip package manager
 - Git (for contribution)
 
-### Step-by-Step Setup
+### Quick Start
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/imdb-analysis.git
-   cd imdb-analysis
-   ```
+1. Clone repository:
+```bash
+git clone https://github.com/Rahmaaaan/DataAnalysisUsingIMDBMovie.git
+cd DataAnalysisUsingIMDBMovie
+```
 
-2. **Create virtual environment (recommended)**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Linux/Mac
-   venv\Scripts\activate    # Windows
-   ```
+2. Install dependencies:
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
 
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Launch Jupyter Notebook**
-   ```bash
-   jupyter notebook
-   ```
-
-5. **Dataset setup**
-   - Place `imdb-movies.csv` in the `data/` directory
-   - Run the `data_cleaning.ipynb` notebook first
+3. Launch analysis:
+```bash
+jupyter notebook DataAnalysisUsingIMDB.ipynb
+```
 
 ## Contribution
 
@@ -78,18 +83,23 @@ We welcome contributions in these areas:
    git checkout -b feature/your-feature-name
    ```
 
-3. **Commit changes**
+3. **Test changes**
+   ```bash
+    jupyter nbconvert --execute         DataAnalysisUsingIMDB.ipynb
+   ```
+   
+4. **Commit changes**
    ```bash
    git add .
    git commit -m "feat: add correlation analysis for director impact"
    ```
 
-4. **Push changes**
+5. **Push changes**
    ```bash
    git push origin feature/your-feature-name
    ```
 
-5. **Create Pull Request**
+6. **Create Pull Request**
    - Use conventional commit messages
    - Reference related issues
    - Include visualizations if applicable
